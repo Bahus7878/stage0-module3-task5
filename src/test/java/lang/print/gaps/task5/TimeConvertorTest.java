@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TimeConvertorTest extends BaseIOTest {
+class  TimeConvertorTest extends BaseIOTest {
 
     @Test
     void convertConvertsToSeconds() {
         TimeConvertor convertor = new TimeConvertor();
 
-        convertor.convert(11.5F);
+        convertor . convert(11.5F);
 
         assertEquals("690.0\n", updateLineSpliterators(outContent.toString()));
     }
